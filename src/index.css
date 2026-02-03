@@ -606,6 +606,55 @@ button:hover {
     background: #555;
 }
 
+.pokemon-footer {
+    position: relative;
+    background: #1a1a1a;
+    color: white;
+    padding: 40px 20px 20px;
+    margin-top: 50px;
+    border-top: 4px solid #ee1515;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footer-decor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-content h2, .footer-content small {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.footer-content strong {
+    color: #ffcb05;
+}
+
+.footer-status {
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 0.6;
+    letter-spacing: 2px;
+}
+
+.status-text::before {
+    content: "●";
+    color: #3fb337;
+    margin-right: 8px;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+
 @media (max-width: 600px) {
     .evolution-card {
         min-width: 140px;

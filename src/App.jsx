@@ -3,20 +3,18 @@ import Test from './components/test';
 import Evolution from './components/Evolution';
 import Header from './components/Header';
 import Accueil from './components/Accueil';
+import Favorite from './components/Favorite';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-
-const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-
 import { useState } from 'react';
+import Footer from './components/Footer';
 
 function App() {
   const [langue, setLangue] = useState('fr');
-
   const changerLangue = () => {
     setLangue((prev) => (prev === 'fr' ? 'en' : 'fr'));
+  };
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -37,6 +35,10 @@ function App() {
             element={<Accueil langue={langue} />}
           />
           <Route 
+            path="/favoris"
+            element={<Favorite langue={langue} />}
+          />
+          <Route 
             path="/pokemon/:id" 
             element={<Test langue={langue} />} 
           />
@@ -46,6 +48,7 @@ function App() {
           />
         </Routes>
       </main>
+      <Footer></Footer>
     </BrowserRouter>
   );
 }

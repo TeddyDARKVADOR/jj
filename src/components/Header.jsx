@@ -16,7 +16,7 @@ function Header({ langue, changerLangue }) {
             </div>
             <nav className="nav-links">
                 <button onClick={changerLangue}>
-                    {langue === 'fr' ?  'Changer en anglais' : 'Switch to French' }
+                    {langue === 'fr' ?  'English' : ' French' }
                 </button>
                 <Link to="/" className="nav-link active">Accueil</Link>
                 <Link to="/favoris" className="nav-link">Mes Favoris</Link>

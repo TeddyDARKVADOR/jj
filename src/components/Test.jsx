@@ -41,7 +41,25 @@ function Test() {
                 });
         }
     }, [id, setLoaded, setError]);
-
+    const [favorites, setFavorites] = useState(() => {
+        try {
+          return JSON.parse(localStorage.getItem("favorites") || "[]");
+        } catch {
+          return [];
+        }
+    });
+    const isFavorite = (pokemon) => favorites.some(f => f.pokedex_id === pokemon.pokedex_id);
+    const toggleFavorite = (pokemon, e) => {
+        e.stopPropagation();
+        let newFavs;
+        if (isFavorite(pokemon)) {
+            newFavs = favorites.filter(f => f.pokedex_id !== pokemon.pokedex_id);
+        } else {
+            newFavs = [...favorites, pokemon];
+        }
+        setFavorites(newFavs);
+        localStorage.setItem("favorites", JSON.stringify(newFavs));
+    };
     const calculateWidth = (val) => {
         const max = 255;
         const percent = (val / max) * 100;
@@ -64,6 +82,11 @@ function Test() {
                     <span className="jp-gradient">{pokemon.name?.jp}</span>
                     <span className="flag-separator">🍣 / 🥖</span>
                     <span className="fr-gradient">{pokemon.name?.fr}</span>
+                    <span
+                        style={{  top: 8, right: 8, color: isFavorite(pokemon) ? "gold" : "#bbb", fontWeight: "bold", cursor: "pointer", fontSize: 22 }}
+                       title={isFavorite(pokemon) ? "Retirer des favoris" : "Ajouter aux favoris"}
+                        onClick={e => toggleFavorite(pokemon, e)}>★
+                    </span>
                 </h1>
 
                 {pokemon.pokedex_id < 1026  && (
@@ -74,7 +97,6 @@ function Test() {
                     </button>
                 )}
                 
-
                 <div className="pokemon-details-container">
                     <div className="left-column">
                         <div className="pokemon-display">
@@ -84,7 +106,9 @@ function Test() {
                                     alt={pokemon.name?.fr} 
                                     title="Apparence Normale"
                                 />
+                                
                             ) : (
+                                
                                 <p className="Nogmax">Ce Pokémon n'a pas d'image normale</p>
                             )}
 
