@@ -1,0 +1,266 @@
+[
+{
+    "pokedex_id": 1026,
+    "generation": 0,
+    "category": "Pokémon Roi des Koopas",
+    "name": {
+      "fr": "Bowser",
+      "en": "Bowser",
+      "jp": "クッパ"
+    },
+    "sprites": {
+      "regular": "https://www.smashbros.com/assets_v2/img/fighter/bowser/main.png",
+      "shiny": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1962a7f2-07c7-4733-b233-4da17532a5f3/dfrvsac-d94bc582-a862-444e-af0a-2d21792a59b4.png/v1/fill/w_847,h_944/movie_bowser_render_by_kingstone09_dfrvsac-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQyNyIsInBhdGgiOiJcL2ZcLzE5NjJhN2YyLTA3YzctNDczMy1iMjMzLTRkYTE3NTMyYTVmM1wvZGZydnNhYy1kOTRiYzU4Mi1hODYyLTQ0NGUtYWYwYS0yZDIxNzkyYTU5YjQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fdsOtfcOMn_0O7WhfvFOliLl0HmR-XAqG4f251qeBKU",
+      "gmax": {
+        "regular": "https://th.bing.com/th/id/R.ce937298ac1d653e61433cbbc689e109?rik=QP4o3PdPjQtY8g&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20120830033817%2fthedimensionsaga%2fimages%2f7%2f71%2fBowser.png&ehk=apXNkbNvDqW2mELh%2fQ%2fY6qTdYXOLUhLRR%2bqc%2fNz8VUk%3d&risl=&pid=ImgRaw&r=0",
+        "shiny": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d40e9ca-1974-4a87-bbfa-165264db741b/dhvpiv1-173d133f-a70a-46e7-8ff2-0c4985416704.png/v1/fill/w_788,h_1015/bowser__super_mario__render_by_soul151killer_dhvpiv1-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY0OSIsInBhdGgiOiJcL2ZcLzhkNDBlOWNhLTE5NzQtNGE4Ny1iYmZhLTE2NTI2NGRiNzQxYlwvZGh2cGl2MS0xNzNkMTMzZi1hNzBhLTQ2ZTctOGZmMi0wYzQ5ODU0MTY3MDQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hYMkH7qMavUXGhyuu7MzYEBPR8I_1CGZqHXY7xJ1rzk"
+      }
+    },
+    "types": [
+      {
+        "name": "Feu",
+        "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/feu.png"
+      },
+      {
+        "name": "Dragon",
+        "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/dragon.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Carapace Royale",
+        "tc": false
+      },
+      {
+        "name": "Crache-Feu",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 150,
+      "atk": 130,
+      "def": 140,
+      "spe_atk": 100,
+      "spe_def": 90,
+      "vit": 50
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 1
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Feu",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Eau",
+        "multiplier": 2
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Glace",
+        "multiplier": 1
+      },
+      {
+        "name": "Combat",
+        "multiplier": 1
+      },
+      {
+        "name": "Poison",
+        "multiplier": 1
+      },
+      {
+        "name": "Sol",
+        "multiplier": 2
+      },
+      {
+        "name": "Vol",
+        "multiplier": 1
+      },
+      {
+        "name": "Psy",
+        "multiplier": 1
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Roche",
+        "multiplier": 2
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 1
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 2
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 1
+      },
+      {
+        "name": "Acier",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Fée",
+        "multiplier": 2
+      }
+    ],
+    "evolution": null,
+    "height": "2,6 m",
+    "weight": "350,0 kg",
+    "egg_groups": null,
+    "sexe": {
+      "male": 100,
+      "female": 0
+    },
+    "catch_rate": 3,
+    "level_100": 1250000,
+    "formes": null,
+    "easterEgg": true
+  },
+  {
+    "pokedex_id": 1027,
+    "generation": 0,
+    "category": "Pokémon Légende Maudite",
+    "name": {
+      "fr": "Herobrine",
+      "en": "Herobrine",
+      "jp": "ヒロブライン"
+    },
+    "sprites": {
+      "regular": "https://www.nicepng.com/png/full/191-1911020_herobrine-png.png",
+      "shiny": "https://www.seekpng.com/png/full/622-6224768_minecraft-herobrine-png.png",
+      "gmax": {
+        "regular": "https://www.pngmart.com/files/23/Herobrine-PNG-Free-Download-200x186.png",
+        "shiny": "https://i.pinimg.com/originals/51/6b/9d/516b9d302d46e0e6e9123598c06d6ba8.png"
+      }
+    },
+    "types": [
+      {
+        "name": "Spectre",
+        "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"
+      },
+      {
+        "name": "Ténèbres",
+        "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Intimidation",
+        "tc": false
+      },
+      {
+        "name": "Télépathe",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 100,
+      "spe_atk": 140,
+      "spe_def": 120,
+      "vit": 80
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 0
+      },
+      {
+        "name": "Plante",
+        "multiplier": 1
+      },
+      {
+        "name": "Feu",
+        "multiplier": 1
+      },
+      {
+        "name": "Eau",
+        "multiplier": 1
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 1
+      },
+      {
+        "name": "Glace",
+        "multiplier": 1
+      },
+      {
+        "name": "Combat",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Poison",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Sol",
+        "multiplier": 1
+      },
+      {
+        "name": "Vol",
+        "multiplier": 1
+      },
+      {
+        "name": "Psy",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Roche",
+        "multiplier": 1
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 1
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Acier",
+        "multiplier": 1
+      },
+      {
+        "name": "Fée",
+        "multiplier": 2
+      }
+    ],
+    "evolution": null,
+    "height": "1,8 m",
+    "weight": "85,0 kg",
+    "egg_groups": null,
+    "sexe": {
+      "male": 100,
+      "female": 0
+    },
+    "catch_rate": 3,
+    "level_100": 1250000,
+    "formes": null,
+    "easterEgg": true
+  }
+]
